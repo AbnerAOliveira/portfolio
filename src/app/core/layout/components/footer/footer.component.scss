@@ -11,3 +11,20 @@
     }
   }
 }
+
+@media (max-width:400px) {
+  .container {
+    height: 5em;
+
+    mat-toolbar {
+      background-color: black;
+      height: 100%;
+      justify-content: center;
+
+      span {
+        font-size: 0.6em;
+        color: white;
+      }
+    }
+  }
+}

@@ -10,3 +10,23 @@
     }
   }
 }
+
+@media(max-width: 800px) {
+  .container {
+    mat-toolbar {
+      span {
+        font-size: 1.5em;
+      }
+    }
+  }
+}
+
+@media(max-width: 400px) {
+  .container {
+    mat-toolbar {
+      span {
+        font-size: 1em;
+      }
+    }
+  }
+}
