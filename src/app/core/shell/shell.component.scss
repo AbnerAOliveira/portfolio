@@ -8,3 +8,12 @@
     background-color: #E5E5E5;
   }
 }
+
+@media (max-width: 400px) {
+  .container {
+    .content {
+      padding: 1em 1em;
+    }
+  }
+
+}
