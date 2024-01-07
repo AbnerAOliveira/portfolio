@@ -1,0 +1,25 @@
+.home {
+
+  mat-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2em;
+    padding: 2em 5em;
+  }
+
+  img {
+    border-radius: 100%;
+    border: 1px solid;
+    margin-bottom: 2em;
+  }
+
+  mat-card-content {
+    text-align: justify;
+
+    span {
+      font-size: 1.2em;
+      margin-top: 2em;
+    }
+  }
+}
